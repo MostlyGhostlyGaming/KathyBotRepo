@@ -17,7 +17,7 @@ async def ping(ctx):
 async def _8ball(ctx, *, question):
     ctx.send('pong')
 
-@client.command(aliases=['h', 'ineedhelp'])
+@client.command(aliases=['h'])
 async def _help(ctx):
     embed=discord.Embed(title="Help", description="Hello! I am a meme bot called Kathy. I was made simply for memes and I serve no other purpose then to be FUNNY!!! You can recommend features for me in <#877480907215343647> using the suggestions template stated below. Thank you for using me!")
     embed.set_author(name="From the developers of PrestigeMod", url="https://discord.gg/vE4PhX8NR4", icon_url="https://cdn.discordapp.com/attachments/757221765712969780/872795105256415232/unknown.png")
